@@ -1,0 +1,105 @@
+
+#noticia, #stats,#know, #help, #know{
+    scroll-margin-top: 90px;
+}
+.nav-item{
+    padding-left:30px;
+    padding-right:30px!important;
+  }
+.nav-link{font-size: 16px;}
+.navbar{
+    padding: 20px 0px 0px;
+    
+}
+
+.hand{
+    filter:saturate(0);
+}
+.m-top{
+    margin-top: 90px;
+
+}
+li {
+    margin: 16px 0px;
+}
+p, li{
+    font-size: clamp(1rem, 0.464rem + 1.429vw, 1.75rem);
+}
+.title-font {
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.title-spacing{
+    letter-spacing: 5px;}
+  
+.border-bottom{border-bottom: 2px solid #363539;}
+.title{
+    color: #4d59e3;
+    font-weight: 700;
+    font-size: clamp(1.5rem, -0.286rem + 4.762vw, 4rem);
+}
+.title-small{
+    color: #4d59e3;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 0.607rem + 2.381vw, 2.75rem);
+}
+.title-small-black{
+    color: #333;
+    font-weight: 400;
+    font-size: clamp(1.5rem, 0.607rem + 2.381vw, 2.75rem);
+}
+.accent-color{
+    color: #4d59e3;
+    font-weight: 700;
+}
+.img-bg{
+    background-image: url("./imgs/gab.jpeg");
+    filter: saturate(0);
+    min-height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+  
+}
+.tel{
+    font-size:14px;
+}
+.title-container{
+    padding-right: 20%;
+}
+
+figcaption{
+    font-size:10px;
+}
+.separator{
+    border-bottom: 2px solid #00000047;
+    margin: auto;
+    width: 30%;
+
+}
+
+.white{
+    color:white;
+}
+.background-blue{
+    background-color: #4d59e3;
+}
+@media  screen and (max-width: 992px) {
+    .title-container{
+        padding-right: 20%;
+
+    }
+    .img-bg{
+        background-position-x: center;
+        background-size: contain;
+    }
+}
+
+@media  screen and (min-width: 1200px) {
+    .img-bg{
+        background-position: center;
+        background-size: contain;
+        min-height: 450px;
+    }
+}

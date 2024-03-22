@@ -36,7 +36,7 @@ p, li{
 .border-bottom{border-bottom: 2px solid #363539;}
 .title{
     color: #4d59e3;
-    font-weight: 700;
+    font-weight: 500;
     font-size: clamp(1.5rem, -0.286rem + 4.762vw, 4rem);
 }
 .title-small{
@@ -52,6 +52,13 @@ p, li{
 .accent-color{
     color: #4d59e3;
     font-weight: 700;
+}
+.footer{
+    height:60px;
+}
+
+.border-blue{
+    border: 1px solid #4d59e3;
 }
 .img-bg{
     background-image: url("./imgs/gab.jpeg");
